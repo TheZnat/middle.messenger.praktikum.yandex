@@ -1,0 +1,28 @@
+.input__container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input__element {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(51, 105, 243);
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.input__label {
+  color: rgb(153, 153, 153);
+  font-family: Inter;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 9px;
+  letter-spacing: 0%;
+  text-align: left;
+}

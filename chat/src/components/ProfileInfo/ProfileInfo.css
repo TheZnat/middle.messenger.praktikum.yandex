@@ -1,0 +1,41 @@
+.profile--info__item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.profile--info__item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(234, 234, 234);
+}
+
+.profile--info__item__name {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.profile--info__item__info {
+  color: rgb(153, 153, 153);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+
+.profile--info__item--last:after {
+  display: none;
+}
+

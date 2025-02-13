@@ -1,0 +1,19 @@
+.active {
+  color: rgb(15, 33, 78);
+}
+
+.link {
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  color: rgb(51, 105, 243);
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+  letter-spacing: 0%;
+}
+
+

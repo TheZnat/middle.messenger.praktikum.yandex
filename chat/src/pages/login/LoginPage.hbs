@@ -1,0 +1,13 @@
+<div class={{styles.container}}>
+    <form class={{styles.login-form}} autocomplete="off">
+         {{> FormHeader name="Вход"}}
+        <div class={{styles.login-form__inputs}}>
+        {{> Input label="Логин" type="text"}}
+        {{> Input label="Пароль"  type="password" }}
+        </div>
+        <div class={{styles.buttonArea}}>
+            {{> Button text="Войти" }}
+            {{> Link text="Нет аккаунта?" href="#" }}
+        </div>
+    </form>
+</div>

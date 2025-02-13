@@ -1,0 +1,33 @@
+{{#if isText}}
+  <div class="chat-message {{#if isMyMessage}} myMessage {{else}} otherMessage {{/if}}">
+    <p class="chat-message__text">
+      {{{text}}}
+    </p>
+    <p class="chat-message__time">{{time}}</p>
+    {{#if isMyMessage}}
+      {{#if isRead}}
+      <div class="chat-message__status">
+        <svg width="9.302490" height="4.708496" viewBox="0 0 9.30249 4.7085" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <line id="Line 5" x1="0.353027" y1="1.687256" x2="3.010864" y2="4.354004" stroke="#3369F3" stroke-opacity="1.000000" stroke-width="1.000000"/>
+          <line id="Line 6" x1="2.305054" y1="4.354248" x2="6.291809" y2="0.354248" stroke="#3369F3" stroke-opacity="1.000000" stroke-width="1.000000"/>
+          <line id="Line 7" x1="4.962769" y1="4.354248" x2="8.949524" y2="0.354248" stroke="#3369F3" stroke-opacity="1.000000" stroke-width="1.000000"/>
+        </svg>
+      </div>
+      {{/if}}
+    {{/if}}
+  </div>
+{{else}}
+  <div class="chat-message__image-container">
+    <img src="{{image}}" alt="image" class="chat-message__image-container__image" />
+    <p class="chat-message__image-container__time">{{time}}</p>
+    {{#if isRead}}
+      <div class="chat-message__image-container__status">
+        <svg width="9.302490" height="4.708496" viewBox="0 0 9.30249 4.7085" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <line id="Line 5" x1="0.353027" y1="1.687256" x2="3.010864" y2="4.354004" stroke="#3369F3" stroke-opacity="1.000000" stroke-width="1.000000"/>
+          <line id="Line 6" x1="2.305054" y1="4.354248" x2="6.291809" y2="0.354248" stroke="#3369F3" stroke-opacity="1.000000" stroke-width="1.000000"/>
+          <line id="Line 7" x1="4.962769" y1="4.354248" x2="8.949524" y2="0.354248" stroke="#3369F3" stroke-opacity="1.000000" stroke-width="1.000000"/>
+        </svg>
+      </div>
+    {{/if}}
+  </div>
+{{/if}}

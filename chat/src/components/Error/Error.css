@@ -1,0 +1,38 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error__title {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.error__subtitle {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 69px;
+}
+
+.error__link {
+  color: rgb(51, 105, 243);
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+}

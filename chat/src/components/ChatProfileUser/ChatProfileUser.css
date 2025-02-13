@@ -1,0 +1,54 @@
+.chat-profile-user {
+  flex-shrink: 0;
+  height: 54px;
+  width: 100%;
+  padding: 10px 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.chat-profile-user::after {
+  content: "";
+  bottom: 0;
+  left: 10px;
+  position: absolute;
+  background: rgb(234, 234, 234);
+  height: 1px;
+  width: calc(100% - 20px);
+}
+
+.chat-profile-user__profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat-profile-user__profile__icon {
+  background: rgb(239, 239, 239);
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.chat-profile-user__profile__name {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 13px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.chat-profile-user__button {
+  background: rgb(245, 245, 245);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
