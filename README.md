@@ -55,7 +55,7 @@ README — первое, что прочитает пользователь, к�
 - `npm run build:prod` — сборка стабильной версии.
 
 ## Дизайн 
-![Макет в Figma](https://www.figma.com/design/gLL93r4KaxhBD8z4X5q7w0/Chat_external_link-(Copy)?node-id=0-1&p=f&t=1eC3jIditTpnR2Me-0)
+[Макет в Figma](https://www.figma.com/design/gLL93r4KaxhBD8z4X5q7w0/Chat_external_link-(Copy)?node-id=0-1&t=1eC3jIditTpnR2Me-1)
 
 ## **Примеры использования**
 
