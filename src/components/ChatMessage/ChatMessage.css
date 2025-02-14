@@ -83,7 +83,7 @@
   border-top-left-radius: 2px;
 }
 
-.chat-message__status{
+.chat-message__status {
   position: absolute;
   bottom: 11px;
   right: 39px;

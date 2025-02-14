@@ -9,4 +9,3 @@ export { stylesChat };
 
 import stylesProfile from "./Profile/Profile.module.css";
 export { stylesProfile };
-
