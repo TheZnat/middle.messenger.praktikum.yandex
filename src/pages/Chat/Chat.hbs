@@ -1,13 +1,15 @@
-<div class={{styles.container}}>
+<main class={{styles.container}}>
   {{!-- Pop-up окно на Добавить пользователя: PopupAddUser  --}}
  {{> PopupAddUser isActive=false}}
-  <div class={{styles.chat}}>
+  <nav class={{styles.chat}}>
   {{> ChatMenuHeader}}
       {{> Message name="Имя" message="Сообщение" time="10:00" count="1" }}
       {{> Message name="Имя" message="Сообщение" time="10:00" count="1" }}
-  </div>
-  <div class={{styles.chat__text-area}}>
-   {{> ChatProfileUser name="Имя" }}
+  </nav>
+  <section class={{styles.chat__text-area}}>
+    <header>
+    {{> ChatProfileUser name="Имя" }}
+   </header>
     <div class={{styles.chat__text-area__body}}>
       {{> SettingPopup}}
       <div class={{styles.chat__text-area__body__time-message}}>
@@ -57,5 +59,5 @@
        {{> AttachPopup isActive=true}}
     </div>
     {{> InputMessage }}
-  </div>
-</div>
+  </section>
+</main>
