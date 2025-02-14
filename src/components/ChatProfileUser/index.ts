@@ -1,3 +1,3 @@
-import "./ChatProfileUser.css";
+import './ChatProfileUser.css';
 
-export { default as ChatProfileUser } from "./ChatProfileUser.hbs?raw";
+export { default as ChatProfileUser } from './ChatProfileUser.hbs?raw';

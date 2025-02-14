@@ -1,3 +1,3 @@
-import "./SettingPopup.css";
+import './SettingPopup.css';
 
-export { default as SettingPopup } from "./SettingPopup.hbs?raw";
+export { default as SettingPopup } from './SettingPopup.hbs?raw';

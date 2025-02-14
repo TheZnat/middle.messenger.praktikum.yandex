@@ -1,3 +1,3 @@
-import "./ProfileInfo.css";
+import './ProfileInfo.css';
 
-export { default as ProfileInfo } from "./ProfileInfo.hbs?raw";
+export { default as ProfileInfo } from './ProfileInfo.hbs?raw';

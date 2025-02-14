@@ -1,3 +1,3 @@
-import "./ProfileSetting.css";
+import './ProfileSetting.css';
 
-export { default as ProfileSetting } from "./ProfileSetting.hbs?raw";
+export { default as ProfileSetting } from './ProfileSetting.hbs?raw';

@@ -1,7 +1,7 @@
-import Handlebars from "handlebars";
-import * as Components from "./components";
-import * as Pages from "./pages";
-import * as Styles from "./pages/styles";
+import Handlebars from 'handlebars';
+import * as Components from './components';
+import * as Pages from './pages';
+import * as Styles from './pages/styles';
 
 const pages = {
   nav: [Pages.NavigatePage],
@@ -23,16 +23,16 @@ function navigate(page: string) {
   //@ts-ignore
   const [source, context = {}] = pages[page];
 
-  const container = document.getElementById("app")!;
+  const container = document.getElementById('app')!;
   const templatingFunction = Handlebars.compile(source);
 
   container.innerHTML = templatingFunction(context);
 }
-document.addEventListener("DOMContentLoaded", () => navigate("nav"));
+document.addEventListener('DOMContentLoaded', () => navigate('nav'));
 
-document.addEventListener("click", (e) => {
+document.addEventListener('click', (e) => {
   //@ts-ignore
-  const page = e.target.getAttribute("page");
+  const page = e.target.getAttribute('page');
   if (page) {
     navigate(page);
 

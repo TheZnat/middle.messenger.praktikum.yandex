@@ -1,1 +1,1 @@
-export { default as ClientError } from "./ClientError.hbs?raw";
+export { default as ClientError } from './ClientError.hbs?raw';

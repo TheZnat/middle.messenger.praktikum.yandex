@@ -1,3 +1,3 @@
-import "./Error.css";
+import './Error.css';
 
-export { default as Error } from "./Error.hbs?raw";
+export { default as Error } from './Error.hbs?raw';

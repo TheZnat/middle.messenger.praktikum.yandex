@@ -1,3 +1,3 @@
-import "./AttachPopup.css";
+import './AttachPopup.css';
 
-export { default as AttachPopup } from "./AttachPopup.hbs?raw";
+export { default as AttachPopup } from './AttachPopup.hbs?raw';

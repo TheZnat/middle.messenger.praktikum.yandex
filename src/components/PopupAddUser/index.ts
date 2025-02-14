@@ -1,3 +1,3 @@
-import "./PopupAddUser.css";
+import './PopupAddUser.css';
 
-export { default as PopupAddUser } from "./PopupAddUser.hbs?raw";
+export { default as PopupAddUser } from './PopupAddUser.hbs?raw';

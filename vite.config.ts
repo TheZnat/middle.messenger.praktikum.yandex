@@ -1,11 +1,11 @@
-import { defineConfig } from "vite";
-import autoprefixer from "autoprefixer";
-import postcssPresetEnv from "postcss-preset-env";
+import { defineConfig } from 'vite';
+import autoprefixer from 'autoprefixer';
+import postcssPresetEnv from 'postcss-preset-env';
 
 export default defineConfig({
-  root: ".",
+  root: '.',
   build: {
-    outDir: "dist",
+    outDir: 'dist',
   },
   server: {
     port: 3000,

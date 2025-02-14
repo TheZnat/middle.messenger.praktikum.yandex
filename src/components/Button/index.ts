@@ -1,3 +1,3 @@
-import "./Button.css";
+import './Button.css';
 
-export { default as Button } from "./Button.hbs?raw";
+export { default as Button } from './Button.hbs?raw';
