@@ -18,7 +18,7 @@
 }
 
 .chat__messages-icon {
-  background: rgb(239, 239, 239);
+  background: var(--color-gray-lighter);
   width: 47px;
   height: 47px;
   border-radius: 50%;
@@ -30,7 +30,7 @@
 }
 
 .chat__messages-body__text__name {
-  color: rgb(30, 30, 30);
+  color: var(--color-main-text);
   font-family: Inter;
   font-size: 13px;
   font-weight: 600;
@@ -40,7 +40,7 @@
 }
 
 .chat__messages-body__text__message {
-  color: rgb(153, 153, 153);
+  color: var(--color-secondary-text);
   font-family: Inter;
   font-size: 12px;
   font-weight: 500;
@@ -58,7 +58,7 @@
 }
 
 .chat__messages-body__info__time {
-  color: rgb(153, 153, 153);
+  color: var(--color-secondary-text);
   font-family: Inter;
   font-size: 9px;
   font-weight: 500;
@@ -67,7 +67,7 @@
 }
 
 .chat__messages-body__info__count {
-  background: rgb(51, 105, 243);
+  background: var(--color-primary-blue);
   width: 20px;
   height: 20px;
   border-radius: 50%;

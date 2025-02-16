@@ -5,7 +5,7 @@
 }
 
 .error__title {
-  color: rgb(30, 30, 30);
+  color: var(--color-main-text);
   font-family: Inter;
   font-size: 40px;
   font-weight: 500;
@@ -16,7 +16,7 @@
 }
 
 .error__subtitle {
-  color: rgb(30, 30, 30);
+  color: var(--color-main-text);
   font-family: Inter;
   font-size: 20px;
   font-weight: 500;
@@ -27,7 +27,7 @@
 }
 
 .error__link {
-  color: rgb(51, 105, 243);
+  color: var(--color-primary-blue);
   font-family: Inter;
   font-size: 11px;
   font-weight: 500;

@@ -1,11 +1,11 @@
-.profile--info__item {
+.profile--form__item {
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
   position: relative;
 }
 
-.profile--info__item::after {
+.profile--form__item::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -15,7 +15,7 @@
   background-color: rgb(234, 234, 234);
 }
 
-.profile--info__item__name {
+.profile--form__item__text {
   color: var(--color-main-text);
   font-family: Inter;
   font-size: 13px;
@@ -25,16 +25,11 @@
   text-align: left;
 }
 
-.profile--info__item__info {
-  color: var(--color-secondary-text);
-  font-family: Inter;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 13px;
-  letter-spacing: 0%;
+.profile--form__item__input {
+  border: none;
+  background-color: transparent;
+  width: max-content;
+  min-width: 10ch;
+  max-width: 100%;
   text-align: right;
-}
-
-.profile--info__item--last:after {
-  display: none;
 }

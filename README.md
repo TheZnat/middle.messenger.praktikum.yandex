@@ -4,7 +4,19 @@
 
 ## Описание
 
-Проект является мессенджером, который разрабатывается с использованием Js, handlebars, PostCSS, VITE
+Проект является мессенджером, разработаный в рамках первого проекта на курсе Яндекс.Практикум - Мидл фронтенд-разработчик
+
+## Вектки для работы
+
+- [sprint_1](https://github.com/TheZnat/middle.messenger.praktikum.yandex/tree/sprint_1) - верстка основынх страниц приложения  
+
+## Технологии
+
+- [js](https://262.ecma-international.org/)
+- [vite](https://vite-docs-ru.vercel.app/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [PostCSS](https://postcss.org/)
+- [Handlebars](https://handlebarsjs.com/)
 
 ## Установка
 
@@ -26,5 +38,6 @@
 - Signin - src/pages/Signin
 - Chat - src/pages/Chat
 - Profile - src/pages/Profile
+- Profile Change Data - src/pages/ProfileChangeData
 - 404 - src/pages/ClientError
 - 500 - src/pages/ServerError

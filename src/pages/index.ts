@@ -5,3 +5,4 @@ export { ChatPage } from './Chat';
 export { Profile as ProfilePage } from './Profile';
 export { ClientError as ClientErrorPage } from './ClientError';
 export { ServerError as ServerErrorPage } from './ServerError';
+export { ProfileChangeData as ProfileChangeDataPage } from './ProfileChangeData';

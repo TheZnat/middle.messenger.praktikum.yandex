@@ -1,7 +1,7 @@
 .button {
   border-radius: 8px;
   border: none;
-  background: rgb(51, 105, 243);
+  background: var(--color-primary-blue);
   width: 280px;
   height: 37px;
   cursor: pointer;

@@ -1,5 +1,5 @@
 .chat-message {
-  background: rgb(248, 248, 248);
+  background: var(--color-gray);
   padding: 11px;
   border-radius: 10px;
   display: flex;
@@ -13,7 +13,7 @@
 }
 
 .chat-message__text {
-  color: rgb(30, 30, 30);
+  color: var(--color-main-text);
   font-family: Inter;
   font-size: 12px;
   font-weight: 500;
@@ -26,7 +26,7 @@
 }
 
 .chat-message__time {
-  color: rgb(153, 153, 153);
+  color: var(--color-secondary-text);
   font-family: Inter;
   font-size: 9px;
   font-weight: 500;
@@ -74,7 +74,7 @@
 
 .myMessage {
   align-self: flex-end; /* Сообщения пользователя справа */
-  background: rgb(228, 237, 253);
+  background: var(--color-blue-light);
   border-bottom-right-radius: 2px;
 }
 

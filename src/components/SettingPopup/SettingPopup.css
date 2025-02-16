@@ -23,7 +23,7 @@
 }
 
 .change-setting-popup__item__text {
-  color: rgb(30, 30, 30);
+  color: var(--color-main-text);
   font-family: Inter;
   font-size: 12px;
   font-weight: 500;

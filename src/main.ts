@@ -9,6 +9,7 @@ const pages = {
   signin: [Pages.SigninPage, { styles: Styles.stylesSignin }],
   chat: [Pages.ChatPage, { styles: Styles.stylesChat }],
   profile: [Pages.ProfilePage, { styles: Styles.stylesProfile }],
+  profileChangeData: [Pages.ProfileChangeDataPage, { styles: Styles.stylesProfileChangeData }],
   clientError: [Pages.ClientErrorPage],
   serverError: [Pages.ServerErrorPage],
 };

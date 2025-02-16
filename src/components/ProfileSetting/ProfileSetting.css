@@ -1,7 +1,7 @@
 .profile--settings__item {
   padding-bottom: 10px;
   text-decoration: none;
-  color: rgb(51, 105, 243);
+  color: var(--color-primary-blue);
   font-family: Inter;
   font-size: 13px;
   font-weight: 500;

@@ -9,3 +9,6 @@ export { stylesChat };
 
 import stylesProfile from './Profile/Profile.module.css';
 export { stylesProfile };
+
+import stylesProfileChangeData from './ProfileChangeData/ProfileChangeData.module.css';
+export { stylesProfileChangeData };

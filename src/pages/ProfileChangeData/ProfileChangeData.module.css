@@ -2,12 +2,12 @@
   width: 510px;
   display: flex;
   flex-direction: column;
-  gap: 60px;
   align-items: center;
 }
 
-.profile--info,
-.profile--settings {
+.profile--form {
+  margin-top: 97px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   gap: 10px;

@@ -15,5 +15,9 @@ export { PopupAddUser } from './PopupAddUser';
 // Profile page
 export { ProfileInfo } from './ProfileInfo';
 export { ProfileSetting } from './ProfileSetting';
+export { ProfileUserInfo } from './ProfileUserInfo';
+export { ProfileBackButton } from './ProfileBackButton';
+// ProfileChangeData
+export { ProfileInput } from './ProfileInput';
 // Error pages
 export { Error } from './Error';

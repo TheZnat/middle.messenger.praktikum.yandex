@@ -2,13 +2,13 @@
     <form class={{styles.login-form}} autocomplete="off">
         {{> FormHeader name="Регистрация"}}
         <div class={{styles.login-form__inputs}}>
-        {{> Input label="Почта" type="email"}}
-        {{> Input label="Логин" type="text"}}
-        {{> Input label="Имя" type="text"}}
-        {{> Input label="Фамилия" type="text"}}
-        {{> Input label="Телефон" type="tel"}}
-        {{> Input label="Пароль" type="password"}}
-        {{> Input label="Пароль (еще раз)" type="password"}}
+        {{> Input label="Почта" type="email" name="email"}}
+        {{> Input label="Логин" type="text" name="login"}}
+        {{> Input label="Имя" type="text" name="first_name"}}
+        {{> Input label="Фамилия" type="text" name="second_name"}}
+        {{> Input label="Телефон" type="tel" name="phone"}}
+        {{> Input label="Пароль" type="password" name="password"}}
+        {{> Input label="Пароль (еще раз)" type="password" name="password"}}
         </div>
         <div class={{styles.buttonArea}}>
             {{> Button text="Зарегестрироваться" }}
