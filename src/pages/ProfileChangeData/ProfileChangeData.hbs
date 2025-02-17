@@ -1,0 +1,13 @@
+<div class={{styles.profile--container}}>
+    {{> ProfileUserInfo srcAvatar="/profile__icon.svg"}}
+    <from class={{styles.profile--form}}>
+        {{> ProfileInput label="Почта" type="email" name="email" placeholder="pochta@yandex.ru"}}
+        {{> ProfileInput label="Логин" type="text" name="login" placeholder="ivanivanov"}}
+        {{> ProfileInput label="Имя" type="text" name="first_name" placeholder="Иван"}}
+        {{> ProfileInput label="Фамилия" type="text" name="second_name" placeholder="Иванов"}}
+        {{> ProfileInput label="Имя в чате" type="text" name="display_name" placeholder="Иван"}}
+        {{> ProfileInput label="Телефон" type="tel" name="phone" placeholder="+7 (909) 967 30 30"}}
+    </from>
+   {{> Button text="Сохранить"}}
+</div>
+{{> ProfileBackButton}}

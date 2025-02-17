@@ -1,0 +1,28 @@
+.input__container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input__element {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--color-primary-blue);
+  color: var(--color-main-text);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.input__label {
+  color: var(--color-secondary-text);
+  font-family: Inter;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 9px;
+  letter-spacing: 0%;
+  text-align: left;
+}

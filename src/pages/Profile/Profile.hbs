@@ -1,0 +1,17 @@
+<div class={{styles.profile--container}}>
+    {{> ProfileUserInfo name="Имя" srcAvatar="/profile__icon.svg"}}
+    <div class={{styles.profile--info}}>
+        {{> ProfileInfo name="Почта" info="pochta@yandex.ru"}}
+        {{> ProfileInfo name="Логин" info="ivanivanov"}}
+        {{> ProfileInfo name="Имя" info="Иван"}}
+        {{> ProfileInfo name="Фамилия" info="Иванов"}}
+        {{> ProfileInfo name="Имя в чате" info="Иван"}}
+        {{> ProfileInfo name="Телефон" info="+7 (909) 967 30 30" last=true}}
+    </div>
+    <div class={{styles.profile--settings}}>
+        {{> ProfileSetting data="Изменить данные"}}
+        {{> ProfileSetting data="Изменить пароль"}}
+        {{> ProfileSetting data="Выйти" last=true}}
+    </div>
+</div>
+{{> ProfileBackButton}}

@@ -1,0 +1,15 @@
+.profile--container {
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+.profile--info,
+.profile--settings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}

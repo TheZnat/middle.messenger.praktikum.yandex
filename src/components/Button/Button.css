@@ -1,0 +1,18 @@
+.button {
+  border-radius: 8px;
+  border: none;
+  background: var(--color-primary-blue);
+  width: 280px;
+  height: 37px;
+  cursor: pointer;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+}
+
+.button:hover {
+  background: rgb(41, 82, 191);
+}

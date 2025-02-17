@@ -1,0 +1,12 @@
+.profile--back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 64px;
+  height: 100%;
+  background: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid rgb(234, 234, 234);
+}

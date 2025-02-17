@@ -1,0 +1,13 @@
+.login-form__header {
+  margin-bottom: 40px;
+}
+
+.login-form__header__title {
+  color: var(--color-main-text);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
